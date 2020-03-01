@@ -17,7 +17,7 @@
 
 ### Falsy
 
-> - 0, False, None, "" (empty string), [], (), range(0) are **falsy**
+> - 0, False, None, "" (empty string), [], (), range(0), {} (empty dictionary) are **falsy**
 > - The others are true
 
 ### Sequence Types
@@ -30,6 +30,10 @@
 ### Mapping Types
 
 > - dict
+
+### Set
+
+> The **set** is a Python implementation of the set in Mathematics 
 
 ### Dictionary
 
