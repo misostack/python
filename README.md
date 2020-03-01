@@ -22,16 +22,24 @@
 **Overview**
 
 1. CS0 : Environment setup
-2. CS1 : Variables & Datatypes
-3. CS2 : Loops & Decision Making
-4. CS3 : Functions & Modules & Error Handles
-5. CS4 : Classes/Objects , Regex - Build a module to craw data from the internet: country code, weather,tygia
-6. CS5 : CGI Programming, Database Access, XML Processing - Build a module to parse the data from excel and store in MongoDB
-7. CS6 : Sending Email : build a package to allow send email to specify add with defined template 
-8. CS7 : Networking, Multithreading: build a service to allow receiving files from other server
-9. CS8 : Headfirst Project : build an email service with redis, to allow sending multiple emails at a time
+2. CS1(Part 1) : Input, Output, Variables, Loops
+3. CS1(Part 2) : Decisions Making, Datatypes
+4. CS2 : Functions & Modules & Error Handles
+5. CS3 : Classes/Objects , Regex - Build a module to craw data from the internet: country code, weather,tygia
+6. CS4 : CGI Programming, Database Access, XML Processing - Build a module to parse the data from excel and store in MongoDB
+7. CS5 : Sending Email : build a package to allow send email to specify add with defined template 
+8. CS6 : Networking, Multithreading: build a service to allow receiving files from other server
+9. CS7 : Headfirst Project : build an email service with redis, to allow sending multiple emails at a time
 
 #### CS1
+
+1. Things are learned from this lecture
+
+- Input, Output
+- Variables
+- Datatypes
+
+2. Exercises
 
 #### CS2
 

@@ -1,7 +1,22 @@
 # Things can be learned in this course
 
-- Using "VIM" Editor
-- Create folders, files in linux by commands
-- CHMOD
-- Using python3 to write an application
-- The first application in python3 is a program to "Display my roadmap"
+- Input & Output
+- Variables
+- Datatypes
+
+## Datatypes
+
+### Primitive types
+
+> Python has 4 primitive types : 
+>
+> - integers
+> - floats
+> - booleans
+> - strings
+
+### Q&A
+
+> - Q1 : Is Integers has max int or min int value?
+>
+> - A1 : In Python 3, the answer is sys.maxsize (a billion billion - can say 9 billion billion) 
