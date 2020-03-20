@@ -1,5 +1,12 @@
 # Ezcoder python
 
+## Getting start coding in this project
+
+```bash
+source .venv/bin/activate
+which python3
+```
+
 ## Introduction
 
 > Python is an interpreted language, it is very easy to start learning about programming and also 

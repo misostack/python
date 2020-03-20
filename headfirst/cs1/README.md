@@ -1,8 +1,29 @@
 # Things can be learned in this course
 
-- Input & Output
+**1. Input & Output**
+
+> **Question**: How to receive user's input from console?
+> **Answer**: 
+
+- First way : **sys.args**
+- Second way : use **getopt module** - [ref](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
+- Third way: [argparse](https://docs.python.org/3.3/library/argparse.html) - new in python 3.2
+
 - Variables
 - Datatypes
+- Debugging
+- Loop
+- Numbers
+- Strings
+- Lists
+- Tuples
+- Dictionary
+- Date & Times
+- Functions
+- Modules
+- Files I/O
+- Exception
+
 
 ## Datatypes
 
