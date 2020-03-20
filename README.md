@@ -58,4 +58,18 @@
 **Resources: **
 - http://www.gso.gov.vn/dmhc2015/
 
+## Notes
+
+> python virtualenv
+
+```bash
+python3 -m venv /src/example/.venv
+source /src/example/.venv/bin/activate
+```
+
+> Pip3 : package manager
+
+```bash
+pip3 install {packageName}
+```
 

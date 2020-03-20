@@ -26,7 +26,7 @@ sudo apt-get install python3-pip
 ```bash
 sudo apt-get install python3-venv
 python3 -m venv /src/example/.venv
-source /src/example/.venv
+source /src/example/.venv/bin/activate
 which python3
 deactivate
 which python3
