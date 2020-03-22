@@ -29,3 +29,10 @@
 3. Gitlab CI
 4. Heroku Pipelines
 5. Web Server : Nginx + [WSGI](https://www.fullstackpython.com/web-development.html) - [Gunicorn](https://gunicorn.org/#quickstart)
+
+### Refs
+
+- https://nickjanetakis.com/blog/15-useful-flask-extensions-and-libraries-that-i-use-in-every-project
+- https://realpython.com/flask-blueprint/
+- https://docs.python-guide.org/writing/tests/
+- https://www.programiz.com/python-programming/variables-constants-literals
