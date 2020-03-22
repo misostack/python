@@ -8,6 +8,7 @@
 - First way : **sys.args**
 - Second way : use **getopt module** - [ref](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
 - Third way: [argparse](https://docs.python.org/3.3/library/argparse.html) - new in python 3.2
+- Ref : https://pymotw.com/2/getopt/ , https://docs.python.org/2/library/getopt.html
 
 - Variables
 - Datatypes
