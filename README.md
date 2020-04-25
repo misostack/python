@@ -23,3 +23,31 @@
 
 > Bearer Token
 > REST APIs
+
+## Roadmap
+
+### Sprint 1 : Initial Phase
+
+**Todo**
+
+- Install Flask
+- Setup Routes
+- Deploy on Dev server ( Heroku )
+
+## Development
+
+1. Getting start
+
+```bash
+# Upgrade lastest version of setuptools
+python3 -m pip install --user --upgrade setuptools wheel
+
+. .venv/bin/activate
+pip3 install flask
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt
+```
+
+## Staging
+
+## Production
