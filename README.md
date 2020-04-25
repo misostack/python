@@ -39,6 +39,10 @@
 1. Getting start
 
 ```bash
+# create venv
+virtualenv -p python3 venv
+source venv/bin/activate
+pip3 install flask
 # Upgrade lastest version of setuptools
 python3 -m pip install --user --upgrade setuptools wheel
 
@@ -47,6 +51,10 @@ pip3 install flask
 pip3 freeze > requirements.txt
 pip3 install -r requirements.txt
 ```
+
+2. Run 
+
+export FLASK_APP=local_library && export FLASK_ENV=development && flask run
 
 
 ## References
