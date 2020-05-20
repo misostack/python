@@ -107,3 +107,63 @@ tripple quote'''
 - Numeric : integer, float, complex
 
 - https://www.programiz.com/python-programming/numbers
+
+5. Datatypes
+
+5.1. Numbers
+
+> int, float, complex
+
+> **Integers can be of any length, it is only limited by the memory available**
+
+> **A floating-point number is accurate up to 15 decimal places**
+
+5.2. List
+
+> List is an ordered sequence of items. Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ]
+
+> Lists are mutable, meaning, the value of elements of a list can be altered.
+
+5.3. Tuple
+
+> Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+> Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.
+
+> It is defined within parentheses () where items are separated by commas.
+
+5.4. String
+
+> String is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """
+
+> Just like a list and tuple, the slicing operator [ ] can be used with strings. Strings, however, are immutable.
+
+5.5. Set
+
+> Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.
+
+> We can perform set operations like union, intersection on two sets. Sets have unique values. They eliminate duplicates.
+
+> Since, set are unordered collection, indexing has no meaning. Hence, the slicing operator [] does not work.
+
+5.6. Dictionary
+
+> Dictionary is an unordered collection of key-value pairs.
+
+> It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+
+> In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
+
+5.7. Conversion between data types
+
+> int(), float(), str()
+
+> set([1,2,3])
+
+> tuple({1, 2, 3})
+
+> list('hello')
+
+To convert to dictionary, each element must be a pair:
+
+> dict([['a',2], ['b',4]])
