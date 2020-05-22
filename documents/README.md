@@ -167,3 +167,35 @@ tripple quote'''
 To convert to dictionary, each element must be a pair:
 
 > dict([['a',2], ['b',4]])
+
+6. Type Conversion
+
+6.1. Implicit Type Conversion
+
+> In Implicit type conversion, Python automatically converts one data type to another data type. This process doesn't need any user involvement.
+
+> Python always converts smaller data types to larger data types to avoid the loss of data
+
+> Python is not able to use Implicit Conversion when you want to convert from "str" to "num"
+
+> Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+
+> In Type Casting, loss of data may occur as we enforce the object to a specific data type.
+
+7. Python Input, Output and Import
+
+> print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Output formatting
+
+Input
+
+**Import**
+
+```python
+import math
+from math import pi
+
+import sys
+print(sys.path)
+```
