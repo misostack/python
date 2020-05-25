@@ -199,3 +199,84 @@ from math import pi
 import sys
 print(sys.path)
 ```
+
+8. Operators
+
+8.1. Falsy
+
+```python
+#!/usr/bin/env python3
+
+"""Falsy"""
+data = [0, 0.1, "0", 1, True, False, [], (), {}]
+
+
+for v in data:
+  if v:
+    print("{} with type= {} is TRUE".format(v, type(v)))
+  else:
+    print("{} with type= {} is FALSE".format(v, type(v)))
+
+## Result
+0 with type= <class 'int'> is FALSE
+0.1 with type= <class 'float'> is TRUE
+0 with type= <class 'str'> is TRUE
+1 with type= <class 'int'> is TRUE
+True with type= <class 'bool'> is TRUE
+False with type= <class 'bool'> is FALSE
+[] with type= <class 'list'> is FALSE
+() with type= <class 'tuple'> is FALSE
+{} with type= <class 'dict'> is FALSE
+```
+
+- Ref : https://www.programiz.com/python-programming/operators
+
+7.2. Bitwise operators
+
+7.3. Assignment operators
+
+8. Namespace
+
+8.1. Magic
+
+```python
+x = 2
+print("id(2) = {}".format(id(2)))
+print("id(x = 2) = {}".format(id(x)))
+
+def printHello():
+  print('Hello Python')
+
+a = printHello
+
+a()
+
+####### Output
+id(2) = 11197440
+id(x = 2) = 11197440
+Hello Python
+```
+> What is a Namespace in Python?
+
+> Modules can have various functions and classes. A local namespace is created when a function is called, which has all the names defined in it. Similar, is the case with class
+
+> A namespace containing all the built-in names is created when we start the Python interpreter and exists as long as the interpreter runs.
+
+> This is the reason that built-in functions like id(), print() etc. are always available to us from any part of the program. Each module creates its own global namespace.
+
+8.2 Variable Scope
+
+> When a reference is made inside a function, the name is searched in the local namespace, then in the global namespace and finally in the built-in namespace.
+
+> If there is a function inside another function, a new scope is nested inside the local scope.
+
+9. Flow Control
+
+```python
+if CONDITION:
+  pass
+elif CONDITION:
+  pass
+else:
+  pass
+```
