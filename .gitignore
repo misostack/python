@@ -1,0 +1,7 @@
+.venv
+tmp
+*.xlsx
+*.docx
+*.csv
+*.json
+.DS_Store
